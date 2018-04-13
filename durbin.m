@@ -169,8 +169,7 @@ P2=1-fcdf(T2,dfn,dfd);  %probability associated to the F-statistic.
 
 %display results
 tr=repmat('-',1,80);
-disp('DURBIN TEST FOR IDENTICAL TREATMENT EFFECTS:')
-disp('TWO-WAY BALANCED, INCOMPLETE BLOCK DESIGNS')
+disp('DURBIN TEST FOR IDENTICAL TREATMENT EFFECTS: TWO-WAY BALANCED, INCOMPLETE BLOCK DESIGNS')
 disp(tr)
 fprintf('Number of observation: %i\n',o)
 fprintf('Number of blocks: %i\n',b)
